@@ -5,8 +5,8 @@ body{
     font-weight: bold;
     font-size: 30px;
     color: white;
-    /* background-color: rgb(42, 42, 42); */
-    background-color: black;
+    background-color: rgb(42, 42, 42);
+    /* background-color: black; */
     user-select: none;
     touch-action: none;
 }
@@ -15,11 +15,11 @@ body{
     margin-right: auto;
     margin-top: 85px;
     margin-bottom: auto;
-    height: 100%;
-    width: 100%;
-    /* border-radius: 10px; */
+    height: 600px;
+    width: 350px;
+    border-radius: 10px;
     background-color: black;
-    /* border: 1px solid rgba(255, 255, 255, 0.416); */
+    border: 1px solid rgba(255, 255, 255, 0.416);
     padding: 10px;
 }
 #disp{
