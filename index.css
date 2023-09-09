@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    /* background-color: rgb(42, 42, 42); */
+    background-color: black;
+    user-select: none;
+    touch-action: none;
+}
+#calc{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    margin-bottom: auto;
+    height: 100%;
+    width: 100%;
+    /* border-radius: 10px; */
+    background-color: black;
+    /* border: 1px solid rgba(255, 255, 255, 0.416); */
+    padding: 10px;
+}
+#disp{
+    width: 350px;
+    height: 200px;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+#operations{
+    width: 350px;
+    height: 380px;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 88px);
+}
+.but{
+    height: 99%;
+    width: 99%;
+    background-color: black;
+    justify-content: center;
+}
+button{
+    height: 83%;
+    width: 75%;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.275);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: white;
+    transition: 0.2s;
+}
+button:hover{
+    /* cursor: pointer;
+    transform: scale(1.1); */
+    animation: bubble 0.3s ease-out;
+}
+@keyframes bubble {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+#inp1{
+    height: 35px;
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 29%;
+    margin-bottom: 3%;
+    background-color: black;
+    border: none;
+    outline: none;
+    direction: auto;
+    font-family: 'Roboto';
+    font-size: 40px;
+    color: white;
+    caret-color: rgba(255, 0, 0, 0.806);
+    text-align: right;
+}
+#inp2{
+    height: 35px;
+    width: 95%;
+    margin-left: 2%;
+    border: none;
+    outline: none;
+    background-color: black;
+    direction: auto;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: rgba(128, 128, 128, 0.705);
+    caret-color: rgba(255, 0, 0, 0.806);
+    text-align: right;
+}
+#c{
+    background-color: rgba(128, 128, 128, 0.705);
+    font-weight: bold;
+}
+#per{
+    background-color: rgba(128, 128, 128, 0.705);
+    font-weight: bold;
+}
+#back{
+    background-color: rgba(128, 128, 128, 0.705);
+    font-weight: bold;
+    font-size: 20px;
+}
+#divide{
+    background-color: rgba(128, 128, 128, 0.705);
+    font-weight: bold;
+}
+#multiply{
+    background-color: rgba(128, 128, 128, 0.705);
+    font-weight: bold;
+}
+#minus{
+  background-color: rgba(128, 128, 128, 0.705);
+  font-weight: bold;
+}
+#plus{
+    background-color: rgba(128, 128, 128, 0.705);
+    font-weight: bold;
+}
+#equal{
+    background-color: rgb(255, 119, 0);
+    font-weight: bold;
+}
